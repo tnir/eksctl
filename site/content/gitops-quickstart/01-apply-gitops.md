@@ -292,8 +292,8 @@ a starting point for clusters you can iterate over.
 
 XXX: `eks-gitops-example` to be renamed to `eks-quickstart-app-dev`.
 
-Check `XXX` for a description of all the flags and options -
-blocked on <https://github.com/weaveworks/eksctl/pull/1140>.
+XXX: link to  site/content/usage/experimental/01-gitops.md 
+for a description of all the flags and options
 
 So after all this preface, what happens when we run the command?
 `eksctl` will check out the base-config (here we use a copy of the
