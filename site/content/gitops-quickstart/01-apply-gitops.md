@@ -68,7 +68,7 @@ Once it is finished, you should be able to check the cluster contents and
 see some system workloads:
 
 ```console
-$ kubectl get pods --all-namespaces
+kubectl get pods --all-namespaces
 ```
 
 ```
@@ -79,7 +79,6 @@ kube-system   coredns-d5c56458d-wc68z   1/1     Running   0          9m
 kube-system   coredns-d5c56458d-zz8d6   1/1     Running   0          9m
 kube-system   kube-proxy-d577n          1/1     Running   0          3m
 kube-system   kube-proxy-tbmdd          1/1     Running   0          3m
-$
 ```
 
 ## Applying GitOps
@@ -227,7 +226,7 @@ This key can be found at the end of the output of the command, this
 might for example be:
 
 ```console
-$ EKSCTL_EXPERIMENTAL=true eksctl install flux \
+EKSCTL_EXPERIMENTAL=true eksctl install flux \
     --git-url git@github.com:YOURUSER/flux-get-started \
     --git-email your@email.org \
     --name wonderful-wardrobe-1565767990
@@ -253,7 +252,7 @@ repo](https://github.com/fluxcd/flux-get-started) from above, here's
 what you will see in your cluster:
 
 ```console
-$ kubectl get pods -n demo
+kubectl get pods -n demo
 ```
 
 ```
