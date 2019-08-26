@@ -179,6 +179,11 @@ Welcome to a fully GitOpsed world!
   (e.g. get pods, port forward to kube dashboard, grafana, how they get
   to the demo app that has been deployed)
 
+- xxx: once https://github.com/weaveworks/eksctl/pull/1188 is landed,
+  link to doc detailing the flags and directory structure
+  (site/content/usage/experimental/01-gitops.md)
+
+
 ## Advanced setups
 
 `eksctl gitops apply` can largely be decomposed into
