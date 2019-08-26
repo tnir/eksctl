@@ -69,6 +69,9 @@ see some system workloads:
 
 ```console
 $ kubectl get pods --all-namespaces
+```
+
+```
 NAMESPACE     NAME                      READY   STATUS    RESTARTS   AGE
 kube-system   aws-node-cl5t5            1/1     Running   0          1m
 kube-system   aws-node-k96bc            1/1     Running   0          1m
@@ -127,7 +130,7 @@ The command will take a while to run and it's a good idea to scan
 the output. You will note a similar bit of information in the log
 like this one:
 
-```console
+```
 [ℹ]  Flux will only operate properly once it has write-access to the Git repository
 [ℹ]  please configure git@github.com:YOURUSER/eks-gitops-example.git so that the following Flux SSH public key has write access to it
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8msUDG9tEEWHKKJw1o8BpwfMkCvCepeUSMa9iTVK6Bmxeu2pA/ivBS8Qgx/Lg8Jnu4Gk2RbXYMt3KL3/lcIezLwqipGmVvLgBLvUccbBpeUpWt+SlW2LMwcMOnhF3n86VOYjaRPggoPtWfLhFIfnkvKOFLHPRYS3nqyYspFeCGUmOzQim+JAWokf4oGOOX4SNzRKjusboh93oy8fvWk8SrtSwLBWXOKu+kKXC0ecZJK7G0jW91qb40QvB+VeSAbfk8LJZcXGWWvWa3W0/woKzGNWBPZz+pGuflUjVwQG5GoOq5VVWu71gmXoXBS3bUNqlu6nDobd2LlqiXNViaszX
@@ -165,6 +168,9 @@ In our case we are going to see these new arrivals in the cluster:
 
 ```console
 kubectl get pods -n kubernetes-dashboard
+```
+
+```
 kubernetes-dashboard   dashboard-metrics-scraper-f7b5dbf7d-kwz7n   1/1     Running   0          4m
 kubernetes-dashboard   kubernetes-dashboard-7447f48f55-2pl66       1/1     Running   0          4m
 ```
@@ -229,7 +235,7 @@ $ EKSCTL_EXPERIMENTAL=true eksctl install flux \
 
 The output should look like this:
 
-```console
+```
 [...]
 [ℹ]  Flux will only operate properly once it has write-access to the Git repository
 [ℹ]  please configure git@github.com:YOURUSER/flux-get-started so that the following Flux SSH public key has write access to it
@@ -248,6 +254,9 @@ what you will see in your cluster:
 
 ```console
 $ kubectl get pods -n demo
+```
+
+```
 NAME                       READY   STATUS    RESTARTS   AGE
 podinfo-5f4bd464b4-4vf7k   1/1     Running   0          58m
 podinfo-5f4bd464b4-hkgzt   1/1     Running   0          58m
@@ -297,7 +306,7 @@ a starting point for clusters you can iterate over.
 
 XXX: `eks-gitops-example` to be renamed to `eks-quickstart-app-dev`.
 
-XXX: link to  site/content/usage/experimental/01-gitops.md 
+XXX: link to  site/content/usage/experimental/01-gitops.md
 for a description of all the flags and options
 
 So after all this preface, what happens when we run the command?
@@ -322,6 +331,9 @@ In our case we are going to see these new arrivals in the cluster:
 
 ```console
 kubectl get pods -n kubernetes-dashboard
+```
+
+```
 kubernetes-dashboard   dashboard-metrics-scraper-f7b5dbf7d-kwz7n   1/1     Running   0          4m
 kubernetes-dashboard   kubernetes-dashboard-7447f48f55-2pl66       1/1     Running   0          4m
 ```
