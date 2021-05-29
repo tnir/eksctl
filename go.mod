@@ -24,7 +24,6 @@ require (
 	github.com/gofrs/flock v0.8.0
 	github.com/golangci/golangci-lint v1.39.0
 	github.com/gomarkdown/markdown v0.0.0-20201113031856-722100d81a8e // indirect
-	github.com/google/certificate-transparency-go v1.1.1 // indirect
 	github.com/google/uuid v1.2.0
 	github.com/goreleaser/goreleaser v0.162.0
 	github.com/hashicorp/go-version v1.3.0
@@ -68,7 +67,7 @@ require (
 	k8s.io/kops v1.19.0
 	k8s.io/kubelet v0.19.5
 	k8s.io/kubernetes v1.19.5
-	k8s.io/legacy-cloud-providers v0.19.5
+	k8s.io/legacy-cloud-providers v0.21.1
 	sigs.k8s.io/aws-iam-authenticator v0.5.2
 	sigs.k8s.io/mdtoc v1.0.1
 	sigs.k8s.io/yaml v1.2.0
