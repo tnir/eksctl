@@ -58,7 +58,7 @@ require (
 	github.com/weaveworks/schemer v0.0.0-20210802122110-338b258ad2ca
 	github.com/whilp/git-urls v0.0.0-20191001220047-6db9661140c0
 	golang.org/x/tools v0.1.5
-	k8s.io/api v0.21.2
+	k8s.io/api v0.22.1
 	k8s.io/apiextensions-apiserver v0.21.2
 	k8s.io/apimachinery v0.21.2
 	k8s.io/cli-runtime v0.21.2
