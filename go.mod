@@ -35,7 +35,7 @@ require (
 	github.com/dave/dst v0.27.1
 	github.com/dave/jennifer v1.7.0
 	github.com/dlespiau/kube-test-harness v0.0.0-20200915102055-a03579200ae8
-	github.com/evanphx/json-patch/v5 v5.6.0
+	github.com/evanphx/json-patch/v5 v5.7.0
 	github.com/fatih/color v1.15.0
 	github.com/github-release/github-release v0.10.0
 	github.com/gobwas/glob v0.2.3
@@ -67,7 +67,6 @@ require (
 	github.com/vburenin/ifacemaker v1.2.1
 	github.com/vektra/mockery/v2 v2.33.1
 	github.com/weaveworks/goformation/v4 v4.10.2-0.20230526082129-5f5eaa9609b8
-	github.com/weaveworks/launcher v0.0.2-0.20200715141516-1ca323f1de15
 	github.com/weaveworks/schemer v0.0.0-20230525114451-47139fe25848
 	github.com/xgfone/netaddr v0.5.1
 	golang.org/x/crypto v0.12.0
