@@ -61,13 +61,12 @@ require (
 	github.com/spf13/cobra v1.7.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.4
-	github.com/tidwall/gjson v1.16.0
+	github.com/tidwall/gjson v1.17.0
 	github.com/tidwall/sjson v1.2.5
 	github.com/tj/assert v0.0.3
 	github.com/vburenin/ifacemaker v1.2.1
 	github.com/vektra/mockery/v2 v2.33.1
 	github.com/weaveworks/goformation/v4 v4.10.2-0.20230526082129-5f5eaa9609b8
-	github.com/weaveworks/launcher v0.0.2-0.20200715141516-1ca323f1de15
 	github.com/weaveworks/schemer v0.0.0-20230525114451-47139fe25848
 	github.com/xgfone/netaddr v0.5.1
 	golang.org/x/crypto v0.12.0
