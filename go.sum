@@ -824,8 +824,8 @@ github.com/google/uuid v1.1.1/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+
 github.com/google/uuid v1.1.2/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
 github.com/google/uuid v1.2.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
 github.com/google/uuid v1.3.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
-github.com/google/uuid v1.3.1 h1:KjJaJ9iWZ3jOFZIf1Lqf4laDRCasjl0BCmnEGxkdLb4=
-github.com/google/uuid v1.3.1/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
+github.com/google/uuid v1.4.0 h1:MtMxsa51/r9yyhkyLsVeVt0B+BGQZzpQiTQ4eHZ8bc4=
+github.com/google/uuid v1.4.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
 github.com/google/wire v0.5.0 h1:I7ELFeVBr3yfPIcc8+MWvrjk+3VjbcSzoXm3JVa+jD8=
 github.com/google/wire v0.5.0/go.mod h1:ngWDr9Qvq3yZA10YrxfyGELY/AFWGVpy9c1LTRi1EoU=
 github.com/googleapis/enterprise-certificate-proxy v0.2.3 h1:yk9/cqRKtT9wXZSsRH9aurXEpJX+U6FLtpYTdC3R06k=
@@ -1630,8 +1630,6 @@ github.com/voxelbrain/goptions v0.0.0-20180630082107-58cddc247ea2 h1:txplJASvd6b
 github.com/voxelbrain/goptions v0.0.0-20180630082107-58cddc247ea2/go.mod h1:DGCIhurYgnLz8J9ga1fMV/fbLDyUvTyrWXVWUIyJon4=
 github.com/weaveworks/goformation/v4 v4.10.2-0.20230526082129-5f5eaa9609b8 h1:qjATkrajxxCgWIQaVgOmG8RiRwGGn1mOm6szwVty7zA=
 github.com/weaveworks/goformation/v4 v4.10.2-0.20230526082129-5f5eaa9609b8/go.mod h1:x92o12+Azh6DQ4yoXT5oEuE7dhQHR5V2vy/fmZ6pO7k=
-github.com/weaveworks/launcher v0.0.2-0.20200715141516-1ca323f1de15 h1:i/RhLevywqC6cuUWtGdoaNrsJd+/zWh3PXbkXZIyZsU=
-github.com/weaveworks/launcher v0.0.2-0.20200715141516-1ca323f1de15/go.mod h1:w9Z1vnQmPobkEZ0F3oyiqRYP+62qDqTGnK6t5uhe1kg=
 github.com/weaveworks/schemer v0.0.0-20230525114451-47139fe25848 h1:I7S+IHZIU49skVgTNArf9bIdy07mCn1Z0zv1r07ROws=
 github.com/weaveworks/schemer v0.0.0-20230525114451-47139fe25848/go.mod h1:y8Luzq6JDsYVoIV0QAlnvIiq8bSaap0myMjWKyzVFTY=
 github.com/withfig/autocomplete-tools/integrations/cobra v1.2.1 h1:+dBg5k7nuTE38VVdoroRsT0Z88fmvdYrI2EjzJst35I=
