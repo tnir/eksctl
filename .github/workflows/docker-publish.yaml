@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac #v4.0.0
       - name: Extract metadata (tags, labels) for Docker
         id: meta
-        uses: docker/metadata-action@818d4b7b91585d195f67373fd9cb0332e31a7175 #4.6.0
+        uses: docker/metadata-action@e6428a5c4e294a61438ed7f43155db912025b6b3 #5.2.0
         with:
           images: weaveworks/eksctl
       - name: Log in to Docker Hub
